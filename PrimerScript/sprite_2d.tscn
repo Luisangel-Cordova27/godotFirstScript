@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://1kmdde47qkjh"]
+
+[ext_resource type="Texture2D" uid="uid://n8jhgxcurwvo" path="res://face-without-mouth-svgrepo-com.svg" id="1_d258b"]
+[ext_resource type="Script" path="res://Sprite2D.gd" id="2_d5b1f"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(438, 303)
+scale = Vector2(0.180246, 0.180246)
+texture = ExtResource("1_d258b")
+script = ExtResource("2_d5b1f")
